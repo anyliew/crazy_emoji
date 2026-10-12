@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -40,7 +40,7 @@ def fleshlight_summer_liuli_zi(images: list[BuildImage], texts: list[str], args:
         img = imgs[0].convert("RGBA").circle().resize((770, 770))
         return frame.copy().paste(img, (210, 265), alpha=True, below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -52,5 +52,5 @@ add_meme(
     max_texts=1,
     keywords=["夏日琉璃子"],
     date_created=datetime(2024, 12, 21),
-    date_modified=datetime(2025, 7, 23),
+    date_modified=datetime(2026, 10, 12),
 )

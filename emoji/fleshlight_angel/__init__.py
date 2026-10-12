@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -41,7 +41,7 @@ def fleshlight_angel(images: list[BuildImage], texts: list[str], args: MemeArgsM
         img = imgs[0].convert("RGBA").circle().resize((675, 675))
         return frame.copy().paste(img, (65, 105), alpha=True,below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -53,5 +53,5 @@ add_meme(
     max_texts=1,
     keywords=["天使心"],
     date_created=datetime(2025, 3, 24),
-    date_modified=datetime(2025, 3, 24),
+    date_modified=datetime(2026, 10, 12),
 )

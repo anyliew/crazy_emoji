@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -39,7 +39,7 @@ def fleshlight_taimanin_asgi(images: list[BuildImage], texts: list[str], args: M
         img = imgs[0].convert("RGBA").circle().resize((780, 780))
         return frame.copy().paste(img, (215, 222), alpha=True, below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -51,5 +51,5 @@ add_meme(
     max_texts=1,
     keywords=["对魔忍"],
     date_created=datetime(2024, 12, 21),
-    date_modified=datetime(2024, 12, 21),
+    date_modified=datetime(2026, 10, 12),
 )

@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -41,7 +41,7 @@ def fleshlight_miyuko_kamimiya(images: list[BuildImage], texts: list[str], args:
         img = imgs[0].convert("RGBA").circle().resize((950, 950))
         return frame.copy().paste(img, (275, -10), alpha=True,below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -53,5 +53,5 @@ add_meme(
     max_texts=1,
     keywords=["神宫美优子"],
     date_created=datetime(2025, 3, 24),
-    date_modified=datetime(2025, 3, 24),
+    date_modified=datetime(2026, 10, 12),
 )

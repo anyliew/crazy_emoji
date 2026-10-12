@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -40,7 +40,7 @@ def fleshlight_hoshino_alice(images: list[BuildImage], texts: list[str], args: M
         img = imgs[0].convert("RGBA").circle().resize((920, 920))
         return frame.copy().paste(img, (130, 180), alpha=True, below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -49,8 +49,8 @@ add_meme(
     min_images=1,
     max_images=1,
     min_texts=0,
-    max_texts=0,
+    max_texts=1,
     keywords=["啦啦队偶像","拉拉队偶像"],
     date_created=datetime(2025, 3, 13),
-    date_modified=datetime(2025, 9, 5),
+    date_modified=datetime(2026, 10, 12),
 )

@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -39,7 +39,7 @@ def fleshlight_starter_pack(images: list[BuildImage], texts: list[str], args: Me
         img = imgs[0].convert("RGBA").circle().resize((580, 580))
         return frame.copy().paste(img, (15, 185), alpha=True, below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -51,5 +51,5 @@ add_meme(
     max_texts=1,
     keywords=["新手礼包"],
     date_created=datetime(2025, 5, 30),
-    date_modified=datetime(2025, 5, 30),
+    date_modified=datetime(2026, 10, 12),
 )

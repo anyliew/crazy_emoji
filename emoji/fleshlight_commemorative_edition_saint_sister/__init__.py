@@ -5,7 +5,7 @@ from pil_utils import BuildImage
 
 from meme_generator import MemeArgsModel, add_meme
 from meme_generator.exception import TextOverLength
-from meme_generator.utils import make_jpg_or_gif
+from meme_generator.utils import make_png_or_gif
 
 img_dir = Path(__file__).parent / "images"
 
@@ -39,7 +39,7 @@ def fleshlight_commemorative_edition_saint_sister(images: list[BuildImage], text
         img = imgs[0].convert("RGBA").circle().resize((770, 770))
         return frame.copy().paste(img, (202, 252), alpha=True, below=True)
 
-    return make_jpg_or_gif(images, make)
+    return make_png_or_gif(images, make)
 
 
 add_meme(
@@ -51,5 +51,5 @@ add_meme(
     max_texts=1,
     keywords=["纪念版圣修女"],
     date_created=datetime(2024, 12, 21),
-    date_modified=datetime(2024, 12, 21),
+    date_modified=datetime(2026, 10, 12),
 )
