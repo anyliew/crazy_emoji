@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: meme_emoji
-    url: https://github.com/anyliew/meme_emoji
+  - name: crazy_emoji
+    url: https://github.com/anyliew/crazy_emoji
     about: 基于meme-generator做的扩展表情包仓库
