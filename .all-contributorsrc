@@ -1,0 +1,35 @@
+{
+  "projectName": "anyliew/crazy_emoji",
+  "projectOwner": "anyliew",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributorsPerLine": 7,
+  "linkToUsage": true,
+  "badge": false,
+  "contributors": [
+    {
+      "login": "LRZ9712",
+      "name": "tudou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136188345?v=4",
+      "profile": "https://github.com/LRZ9712",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "xinghuan22",
+      "name": "xinghuan22",
+      "avatar_url": "https://avatars.githubusercontent.com/xinghuan22",
+      "profile": "https://github.com/xinghuan22",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

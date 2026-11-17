@@ -89,14 +89,6 @@
 - 请说明运行环境（系统、Python 版本、`meme_generator` 版本）
 - 受网络条件限制，答复可能不够及时，请耐心等待
 
-### QQ 群
-
-<a href="https://qm.qq.com/q/KZFZGdWmyG">
-  <img src="./docs/picture/qq_group.jpg" alt="QQ 群" />
-</a>
-
-进群前请先阅读 [进群注意事项](https://github.com/anyliew/crazy_emoji/wiki/qq_group)。
-
 ## 支持
 
 如果本项目对你有帮助，请给本项目点一个 star，你的鼓励是我们不断前进的动力。
@@ -114,11 +106,24 @@
 
 ## 贡献者
 
-感谢以下开发者对 crazy_emoji 仓库作出的贡献：
+感谢这些了不起的人（[emoji-key](https://allcontributors.org/emoji-key/#natural-language-processing)）：
 
-<a href="https://github.com/anyliew/crazy_emoji/graphs/contributors">
-  <img src="./docs/picture/partner.jpg" alt="贡献者" />
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="50%"><a href="https://github.com/LRZ9712"><img src="https://avatars.githubusercontent.com/u/136188345?v=4?s=100" width="100px;" alt="tudou"/><br /><sub><b>tudou</b></sub></a><br /><a href="https://github.com/anyliew/crazy_emoji/commits?author=LRZ9712" title="Code">💻</a></td>
+      <td align="center" valign="top" width="50%"><a href="https://github.com/xinghuan22"><img src="https://avatars.githubusercontent.com/xinghuan22?s=100" width="100px;" alt="xinghuan22"/><br /><sub><b>xinghuan22</b></sub></a><br /><a href="https://github.com/anyliew/crazy_emoji/commits?author=xinghuan22" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+本项目遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 规范。
 
 ## 许可
 
